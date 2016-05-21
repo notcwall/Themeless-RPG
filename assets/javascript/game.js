@@ -93,6 +93,7 @@ function playGame(){
 			if(killCount == 3){
 				$('#middleInfoBox').html('<h2>You win!');
 				enemyCharacter = null;
+				$('#enemyBar').html('<img src="assets/images/victory.gif" width="200px" height="200px">')
 			}
 			else{
 				$('.infoBox').empty();
