@@ -1,0 +1,123 @@
+body{
+	font-family: Bangers;
+}
+
+#playerBar, #middleBar, #enemyBar{
+	width: 680px;
+	margin: 10px auto;
+	height: 175px;
+	padding: 50px 0px;
+	background-color: #00ABAB;
+}
+
+.infoBox{
+	width: 200px;
+	height: 200px;
+	float: left;
+	position: relative;
+	margin: auto;
+}
+
+#playerInfoBox{
+	top: 40px;
+	left: 10px;
+}
+
+#enemyInfoBox{
+	bottom: 20px;
+	left: 10px;
+	clear: both;
+}
+
+#middleInfoBox{
+	left: 40px;
+	top: 20px;
+}
+
+h1{
+	position: relative;
+	bottom: 10px;
+	right: 40px;
+	float: right;
+	font-size: 40px;
+	font-family: Bangers;
+	letter-spacing: 5px;
+	color: #0033AA;
+}
+
+h2{
+	position: relative;
+	top: 40px;
+	left: 20px;
+	float: left;
+	font-size: 35px;
+	font-family: Bangers;
+	letter-spacing: 5px;
+	color: #BBBB00;
+}
+
+button{
+	color: #FFFFFF;
+	background-color: #000000;
+	width: 120px;
+	height: 60px;
+	font-size: 30px;
+	font-family: Bangers;
+	float: left;
+	position: relative;
+	bottom: 160px;
+	left: 50px;
+	border: none;
+}
+
+#enemyTitle{
+	color: #990000;
+}
+
+.unchosenCharacter{
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin: 0px 10px;
+	font-family: sans-serif;
+}
+
+.chosenCharacter{
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin: 0px 10px;
+	font-family: sans-serif;
+}
+
+#TerryCruz{
+	background-image: url(../images/terryCruz.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#Batman{
+	background-image: url(../images/batman.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#ZiggyStardust{
+	background-image: url(../images/ziggyStardust.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#GiganticSloth{
+	background-image: url(../images/giganticSloth.jpg);
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+p{
+	position: relative;
+	text-align: center;
+	top: 165px;
+	font-weight: bold;
+	font-size: 12px;
+}
