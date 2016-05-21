@@ -72,6 +72,7 @@ function playGame(){
 			$(this).remove();
 			$('#enemyBar').append(enemyDiv);
 			$('.infoBox').empty();
+			$('#middleInfoBox').remove();
 			$('#middleBar').append('<div class="infoBox" id="middleInfoBox"><h2>To the DEATH!');
 		}
 	});
